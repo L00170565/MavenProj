@@ -61,5 +61,10 @@ public class CalculatorTest {
 		int a = 15; int b = 0;
 		objCalcUnderTest.divide(a, b);
 	} 
+	
+	@After
+    public void cleanUpStreams() {
+        System.setOut(null);
+    }
 
 }
