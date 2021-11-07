@@ -25,7 +25,7 @@ public class CalculatorTest {
 	@Test
 	public void testAdd() { 
 		int a = 10; int b = 20; 
-		int expectedResult = 35;
+		int expectedResult = 30;
 		//Act 
 		long result = objCalcUnderTest.add(a, b);
 		//Assert
@@ -51,7 +51,7 @@ public class CalculatorTest {
 	@Test
 	public void testDivide() {
 		int a = 52; int b = 10; 
-		double expectedResult = 5.6; 
+		double expectedResult = 5.2; 
 		double result = objCalcUnderTest.divide(a, b);
 		assertEquals(expectedResult, result,0.00005); 
 	}
