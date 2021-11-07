@@ -24,7 +24,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testAdd() { 
-		int a = 15; int b = 20; 
+		int a = 10; int b = 20; 
 		int expectedResult = 35;
 		//Act 
 		long result = objCalcUnderTest.add(a, b);
