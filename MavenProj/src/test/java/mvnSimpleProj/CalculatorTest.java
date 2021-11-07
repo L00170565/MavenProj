@@ -50,7 +50,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testDivide() {
-		int a = 56; int b = 10; 
+		int a = 52; int b = 10; 
 		double expectedResult = 5.6; 
 		double result = objCalcUnderTest.divide(a, b);
 		assertEquals(expectedResult, result,0.00005); 
