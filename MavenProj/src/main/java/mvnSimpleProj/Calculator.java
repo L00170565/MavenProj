@@ -6,6 +6,7 @@ package mvnSimpleProj;
 /**
  * @author Panagiotis Drakos
  * Student Id: L00170565
+ * Code sample used from https://www.testingdocs.com/calculator-java-class/
  */
 public class Calculator {
 	//no-arg constructor
