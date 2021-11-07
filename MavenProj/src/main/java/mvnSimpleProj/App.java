@@ -14,7 +14,8 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        System.out.println("This is a simple Java application test");
+        System.out.println("Hello out There");
+        System.out.println("Welcome to DevOps");
         
 	}
 
