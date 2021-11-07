@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 /**
  * @author Panagiotis Drakos
  * Student Id: L00170565
- * 
+ * sample Calculator code used from: https://www.testingdocs.com/junit-calculator-test-case-example/
  */
 public class CalculatorTest {
 	private Calculator objCalcUnderTest;

@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
 /**
  * @author Panagiotis Drakos
  * Student Id: L00170565
+ * sample Test code used from: https://github.com/jenkins-docs/simple-java-maven-app/blob/master/src/test/java/com/mycompany/app/AppTest.java
  */
 
 public class AppTest {
