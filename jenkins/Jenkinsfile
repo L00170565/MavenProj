@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
-                sh "chmod +x -R ${env.WORKSPACE}"
+                git update-index --chmod=+x check_services.sh
                 sh './jenkins/scripts/deliver.sh'
             }
         }
