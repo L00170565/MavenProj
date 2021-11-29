@@ -39,7 +39,6 @@ public class AppTest {
 
         // check the output is "Welcome to DevOps" and a new line
         assertEquals("Welcome to DevOps!" + System.getProperty("line.separator"), outContent.toString());
-        assertEquals("Check msg" + System.getProperty("line.separator"), outContent.toString());
     }
 
     @After
