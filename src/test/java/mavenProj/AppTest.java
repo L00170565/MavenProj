@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
  * sample Test code used from: https://github.com/jenkins-docs/simple-java-maven-app/blob/master/src/test/java/com/mycompany/app/AppTest.java
  */
 
+@SuppressWarnings("InstantiationOfUtilityClass")
 public class AppTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -38,6 +39,7 @@ public class AppTest {
 
         // check the output is "Welcome to DevOps" and a new line
         assertEquals("Welcome to DevOps!" + System.getProperty("line.separator"), outContent.toString());
+        assertEquals("Check msg" + System.getProperty("line.separator"), outContent.toString());
     }
 
     @After
