@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="mavenProj.CalculatorTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="mavenProj.CalculatorTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="/snap/intellij-idea-community/330/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/snap/intellij-idea-community/330/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.3 test"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.3 install"/>
     <property name="java.home" value="/usr/lib/jvm/jdk-11.0.11"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="mavenProj.CalculatorTest" name="testDivideByZero" time="0.004"/>
+  <testcase classname="mavenProj.CalculatorTest" name="testDivideByZero" time="0.002"/>
   <testcase classname="mavenProj.CalculatorTest" name="testAdd" time="0"/>
   <testcase classname="mavenProj.CalculatorTest" name="testSubtract" time="0"/>
   <testcase classname="mavenProj.CalculatorTest" name="testDivide" time="0"/>
